@@ -1,0 +1,44 @@
+.kanban-column {
+    min-height: 500px;
+}
+
+body {
+    background-color: #2c3e50 !important;
+}
+
+.contain {
+    width: 1400px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #2c3e50;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.col {
+    width: 25%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 20px !important;
+}
+
+.p-2 {
+    margin-top: 5px !important;
+}
+
+.list-group-item {
+    height: 60px;
+    margin: 5px 0 !important;
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: rgb(202, 255, 255);
+    transition: 1s;
+    transform: scale(1.05);
+}
